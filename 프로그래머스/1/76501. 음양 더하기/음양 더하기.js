@@ -4,7 +4,7 @@ function solution(absolutes, signs) {
         if(signs[i] === true){
             answer += absolutes[i]
         }else{
-            answer += -absolutes[i];
+            answer -= absolutes[i];
         }
     }
     return answer;
