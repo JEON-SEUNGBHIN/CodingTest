@@ -1,8 +1,4 @@
 function solution(s) {
-    const nums = s.split(' ').map(Number);
-    
-    const min = Math.min(...nums);
-    const max = Math.max(...nums);
-    
-    return `${min} ${max}`;
+    const nums = s.split(' ');
+    return Math.min(...nums) + ' ' + Math.max(...nums);
 }
